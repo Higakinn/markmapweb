@@ -2,8 +2,8 @@ name: Build Minadmap
 
 on:
   push:
-    branches:
-      - "master"
+    # branches:
+    #   - "master"
     paths:
       - "md/**"
       - "./.github/workflows/build.yml"
